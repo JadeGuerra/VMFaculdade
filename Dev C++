@@ -1,0 +1,34 @@
+A instalação do Dev C++ foi feita normalmente, com o executável baixado pelo link: https://ufpr.dl.sourceforge.net/project/orwelldevcpp/Setup%20Releases/Dev-Cpp%205.11%20TDM-GCC%204.9.2%20Setup.exe
+
+Para os gráficos foi feito o download: https://doc-0c-80-docs.googleusercontent.com/docs/securesc/rfjdvi0qr4tqidtevcv8l5qdlcbu7jkp/uvvlioofbs9s3vc1t373l3gq7rh5p5ic/1589761950000/16441060537893443869/01197408767363444822Z/14BLoBy0PA_A7_gdgO6UWiLEzrMPr7Hua?e=download&nonce=u79v2c0684sji&user=01197408767363444822Z&hash=gjpcps1ei4e4fgsato9hmmigob4o55rp
+
+Depois descompactado em pasta própria no próprio diretório.
+
+Os arquivos 6-ConsoleAppGraphics.template e ConsoleApp_cpp_graph.txt foram copiados para C:\Program Files (x86)\Dev-Cpp\Templates
+
+Os arquivos graphics.h e winbgim.h foram copiados para C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include
+
+O arquivo libbgi.a foi copiado para C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib e para C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib32
+
+
+Foi feito o download do GLUT: https://doc-0o-a4-docs.googleusercontent.com/docs/securesc/rfjdvi0qr4tqidtevcv8l5qdlcbu7jkp/pebuqg73keikt92k7sru2lm73u5t8nht/1589762175000/18355813606726308676/01197408767363444822Z/1eUm0-4ZIzf3Psda46Of20VD22kXplcFm?e=download
+
+E o conteúdo foi extraído em C:/GLUT
+
+O caminho do glut foi adicionado no programa Dev C++ em:
+
+Ferramentas, Opções do Compilador, Diretórios, Bibliotecas 
+
+e
+
+Ferramentas, Opções do Compilador, Diretórios, C Includes
+
+O arquivo glut32.dll presente em C:/GLUT foi copiado para C:\Windows\system e C:\Windows\system32
+
+Para criar um projeto com GLUT:
+Projeto > Opções do Projeto, na aba Parâmetros, na coluna Linker, as instruções 
+-lglut32 
+-lglu32 
+-lopengl32
+
+Caso seja necessário, pode-se colocar o glut32.dll direto no projeto.
