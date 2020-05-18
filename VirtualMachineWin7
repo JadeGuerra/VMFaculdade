@@ -4,3 +4,9 @@ Imagem iso Windows 7 Ultimate 64 + sp1
 A máquina Virtual foi criada com a seguinte configuração:
 
 Dual core, 2 GB RAM, 120 GB HD
+
+Programas para instalar:
+
+LibreOffice: https://mirror.nbtelecom.com.br/tdf/libreoffice/stable/6.4.3/win/x86_64/LibreOffice_6.4.3_Win_x64.msi
+Adobe reader: https://admdownload.adobe.com/bin/live/readerdc_br_xa_cra_install.exe
+PDFCreator (para imprimir aquivos pdf): https://purple.download.pdfforge.org/pdfcreator/4.0.4/PDFCreator-4_0_4-Setup.exe
